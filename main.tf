@@ -6,7 +6,7 @@ terraform {
     }
     aws = {
       source  = "aws"
-      version = "2.7.0"
+      version = "3.29.0"
     }
     // falls back block name for source
     azurerm = {
