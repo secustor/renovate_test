@@ -10,7 +10,7 @@ terraform {
     }
     // falls back block name for source
     azurerm = {
-      version = "=2.27.0"
+      version = "=2.48.0"
     }
     invalid = {
       source  = "//hashicorp/helm"
