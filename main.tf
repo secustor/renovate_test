@@ -1,4 +1,5 @@
 terraform {
+  required_version = "= 0.13.0"
   required_providers {
     docker = {
       source  = "terraform-providers/docker"
@@ -25,5 +26,5 @@ terraform {
       version = ">= 1.0"
     }
   }
-  required_version = "= 0.13.0"
+
 }
